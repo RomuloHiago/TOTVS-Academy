@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var tabelaDinamica = document.querySelector('.tabela-dinamica');
   var contadorLinhas = 1;
 
-////////CRIANDO O CONTADOR DE LINHAS//////////
+////////CRIANDO O CONTADOR DE LINHAS//////////  
 
   adicionarLinhaBtn.addEventListener('click', function() {
     if (contadorLinhas <= 4) {
@@ -113,3 +113,8 @@ document.addEventListener('DOMContentLoaded', function() {
    
   }
 });
+
+
+
+
+
