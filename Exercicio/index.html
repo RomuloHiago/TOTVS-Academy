@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prova – TOTVS Academy</title>
+    <script src=""></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="deps/css/bootstrap.min.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1 style="text-align: left">Boa prova!</h1>
+        <h1 style="text-align: center">Tabela dinâmica em Jquery/Javascript</h1>
+  
+        <table class="table tabela-dinamica">
+          <thead>
+            <tr>
+              <th>Coluna 01</th>
+              <th>Coluna 02</th>
+              <th>Coluna 03</th>
+              <th>Resultado</th>
+              <th>Somar</th>
+              <th class="th-remove">Remover</th>
+            </tr>
+          </thead>
+  
+          <tbody>
+            <tr>
+              <td><input type="text" class="form-control column-1" /></td>
+              <td><input type="text" class="form-control column-2" /></td>
+              <td><input type="text" class="form-control column-3" /></td>
+              <td><input type="text" readonly class="form-control" /></td>
+              <td><button type="button" class="btn btn-success  btn-somar-coluna">Somar</button></td>
+              <td>
+                <button type="button" class="btn btn-danger btn-remover">Remover</button>
+              </td>
+            </tr>
+            
+          </tbody>
+  
+        <tr>
+        
+          <td><button type="button" class="btn btn-primary" id="adicionar-linha">Adicionar Linha</button></td>
+          
+        </tr>
+  
+  
+        <thead class="resulatdo-final">
+          <tr>
+            <th>
+              <button type="button" class="btn  btn btn-warning btn-somar-coluna-1 ">
+                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp;Somar coluna 1</button>
+            </th>
+            <th>
+              <button type="button" class="btn  btn btn-warning btn-somar-coluna-2 ">
+                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp; Somar coluna 2</button>
+            </th>
+            <th>
+              <button type="button" class="btn  btn btn-warning btn-somar-coluna-3 ">
+                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp;Somar coluna 3</button>
+            </th>
+          </tr>
+          <tr>
+            <td><input id="result1" readonly type="text" class="form-control resultado-um " /></td>
+            <td><input id="result2" readonly type="text" class="form-control resultado-dois " /></td>
+            <td><input id="result3" readonly type="text" class="form-control resultado-tres " /></td>
+          </tr>
+        </thead>
+        </table>
+
+  
+      </div>
+    </div>
+  </body>
+</html>
