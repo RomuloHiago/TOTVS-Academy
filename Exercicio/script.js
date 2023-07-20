@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
-  var somar1 = document.querySelector('.btn-somar-coluna-1')
+  var somar1 = document.querySelector('.btn-somar-coluna-1')    
     somar1.addEventListener('click', function(){
       somarColuna (1)
     })
